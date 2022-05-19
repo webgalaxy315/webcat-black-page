@@ -1,0 +1,146 @@
+.navbar-user-menu {
+  font-size: 16px;
+  outline: none;
+  display: inline-block;
+  &:focus, &:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  button {
+    color: #4a4a49;
+    background: none;
+    border: none;
+    line-height: 50px;
+    font-weight: 600;
+  }
+  .navbar-username {
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 180px;
+    line-height: 20px;
+    overflow: hidden;
+    position: relative;
+    top: 6px;
+    padding-left: 10px;
+    &:hover {
+      overflow: visible;
+      top: 1px;
+    }
+  }
+  .navbar-avatar {
+    float: left;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+//
+//.navbar-notifications {
+//  font-size: 28px;
+//  line-height: 60px;
+//  padding: 0 10px 0;
+//  height: 60px;
+//  color: #2592DE;
+//  margin-right: 20px;
+//  position: relative;
+//  background-color: transparent;
+//  box-shadow: none;
+//  border: none;
+//}
+//
+//.navbar-notifications:hover {
+//  background-color: transparent;
+//  box-shadow: none;
+//  border: none;
+//}
+//
+//.navbar-notifications .count {
+//  width: 20px;
+//  height: 20px;
+//  font-size: 12px;
+//  font-weight: bold;
+//  color: #2592DE;
+//  display: block;
+//  background: #fff;
+//  padding: 3px;
+//  border-radius: 10px;
+//  line-height: 14px;
+//  text-align: center;
+//  position: absolute;
+//  top: 12px;
+//  right: 6px;
+//}
+
+ul.menu-notifications {
+  right: 0;
+  top: 50px;
+  left: auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 240px;
+  -moz-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.6);
+  li {
+    cursor: pointer;
+    padding-top: 7px;
+    background-color: #fff;
+    height: 35px;
+    border-bottom: 1px solid #d1d1d1;
+    background-repeat: no-repeat;
+    background-position: 202px center;
+    &:hover {
+      background-color: #f3f3f3;
+    }
+  }
+  i {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+  }
+  a {
+    color: #9a9a9a;
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 0;
+    text-align: right;
+    &:hover {
+      background-color: transparent;
+      .public-profile-icon {
+        background-position: -106px -2px;
+        width: 19px;
+        height: 18px;
+      }
+      .terms-of-use-icon {
+        background-position: 0 0;
+        width: 19px;
+        height: 20px;
+      }
+      .help-suport-icon {
+        background-position: -43px -50px;
+        width: 18px;
+        height: 18px;
+      }
+      .privacy-policies {
+        background-position: -203px -2px;
+        width: 19px;
+        height: 20px;
+      }
+      .log-out-icon {
+        background-position: -188px -50px;
+        width: 19px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+ul.menu-notifications a:hover {
+  background-color: transparent;
+}

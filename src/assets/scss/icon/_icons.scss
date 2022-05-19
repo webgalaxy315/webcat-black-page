@@ -1,0 +1,551 @@
+.add-note-icon, .arrow-down-showing, .bell-grey-icon, .bell-icon, .blue-camera-icon, .check-blue-icon, .check-grey-icon, .check-none-icon, .clock-icon, .close-icon, .close-small-icon, .delete-icon, .dots-blue-icon, .dots-grey-icon, .down-arrow-icon, .edit-icon, .expand-icon, .flat-star-icon, .group-icon, .left-arrow-icon, .location, .pen-icon, .private-icon, .reply-icon, .right-arrow-icon, .search-icon, .semi-ribon-icon, .small-clock-icon, .small-location-icon, .star-icon, .three-dots-icon, .wheel-icon{
+    background: url('../resources/sprites/sprites-3.png') no-repeat;
+    display: inline-block;
+}
+
+.add-note-icon{
+    background-position: -54px -208px ;
+    width: 22px;
+    height: 22px;
+}
+
+.arrow-down-showing {
+    background-position: -207px -206px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.bell-grey-icon{
+    background-position: -1px -1px ;
+    width: 27px;
+    height: 33px;
+}
+
+.bell-icon {
+    background: url('../resources/icons/bell-icon-normal.png');
+    width: 28px;
+    height: 33px;
+    vertical-align: middle;
+}
+
+.notification-toggler:hover .bell-icon, .notification-toggler.open .bell-icon {
+    background: url('../resources/icons/bell-icon-hover.png');
+}
+
+.blue-camera-icon{
+    background-position: 0 -207px ;
+    width: 27px;
+    height: 24px;
+}
+
+.check-none-icon{
+    background-position: -253px -205px ;
+    width: 24px;
+    height: 26px;
+}
+
+.check-grey-icon{
+    background-position: -306px -201px ;
+    width: 24px;
+    height: 26px;
+}
+.check-blue-icon {
+    background-position: -3px -155px ;
+    width: 26px;
+    height: 29px;
+}
+.clock-icon{
+    background-position: -105px -211px ;
+    width: 18px;
+    height: 18px;
+}
+
+.close-icon{
+    background-position: -91px -96px ;
+    width: 45px;
+    height: 43px;
+}
+
+.close-small-icon{
+    background-position: -153px -206px ;
+    width: 25px;
+    height: 24px;
+}
+
+.contacts-header-icon {
+    background: url('../resources/icons/contacts-header-icon.png');
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+}
+
+.delete-icon{
+    background-position: -12px -113px ;
+    width: 12px;
+    height: 15px;
+}
+
+.dots-blue-icon{
+    background-position: -44px -164px ;
+    width: 37px;
+    height: 9px;
+}
+
+.dots-grey-icon{
+    background-position: -94px -165px ;
+    width: 38px;
+    height: 12px;
+}
+
+.down-arrow-icon{
+    background-position: -208px -208px ;
+    width: 14px;
+    height: 16px;
+}
+
+.edit-icon{
+    background-position: -307px -158px ;
+    width: 17px;
+    height: 15px;
+}
+
+.expand-icon{
+    background-position: -293px -48px ;
+    width: 44px;
+    height: 44px;
+}
+
+.flat-star-icon{
+    background-position: -246px -103px ;
+    width: 32px;
+    height: 33px;
+}
+
+.group-icon{
+    background-position: -250px -53px ;
+    width: 29px;
+    height: 29px;
+}
+
+.journal-header-icon {
+    background: url('../resources/icons/journal-header-icon.png');
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+}
+
+.left-arrow-icon{
+    background-position: -194px -41px ;
+    width: 38px;
+    height: 56px;
+}
+
+.location{
+    background-position: -256px -155px ;
+    width: 14px;
+    height: 18px;
+}
+
+.location-pin {
+    background: url('../resources/icons/location-pin.png');
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+}
+
+.pen-icon{
+    background-position: -196px 0;
+    width: 38px;
+    height: 42px;
+}
+
+a.pen-icon {
+    width: 38px;
+    height: 42px;
+}
+
+.private-icon{
+    background-position: -208px -160px ;
+    width: 14px;
+    height: 17px;
+}
+
+.private-icon-new {
+    background: url('../resources/icons/private-icon.png');
+    width: 11px;
+    height: 14px;
+    display: inline-block;
+}
+
+.reply-icon{
+    background-position: -150px -103px ;
+    width: 25px;
+    height: 30px;
+}
+
+.right-arrow-icon{
+    background-position: -149px -43px ;
+    width: 39px;
+    height: 56px;
+}
+
+.ribbon-icon {
+    background: url('../resources/icons/ribbon-icon.png');
+    width: 122px;
+    height: 26px;
+    display: inline-block;
+}
+
+.ribbon-icon-gradient {
+    background: url('../resources/icons/ribbon-icon-2-part-1.png') no-repeat;
+    width: 145px;
+    height: 26px;
+    display: inline-block;
+    box-shadow: 15px 7px 15px #e6e6e8;
+    margin-left: -11px;
+    position: relative;
+}
+
+.ribbon-icon-gradient:after {
+    background: url('../resources/icons/ribbon-icon-2-part-2.png');
+    width: 19px;
+    height: 26px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(100% - 9px);
+    z-index: 1;
+}
+
+.search-icon{
+    background-position: -255px -8px ;
+    width: 20px;
+    height: 20px;
+}
+
+.semi-ribon-icon{
+    background-position: -66px -6px ;
+    width: 104px;
+    height: 28px;
+}
+
+.small-clock-icon{
+    background-position: -306px -107px ;
+    width: 18px;
+    height: 18px;
+}
+
+.small-location-icon{
+    background-position: -53px -107px ;
+    width: 16px;
+    height: 19px;
+}
+
+.sprite-dropdown {
+    background: url('../resources/icons/arrow-down.png');
+    width: 9px;
+    height: 6px;
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.dropdown.open .sprite-dropdown {
+    background: url('../resources/icons/arrow-up.png');
+}
+
+.star-icon{
+    background-position: -57px -61px ;
+    width: 14px;
+    height: 14px;
+}
+
+.three-dots-icon{
+    background-position: -154px -169px ;
+    width: 20px;
+    height: 5px;
+    margin-top: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.three-dots-icon-big {
+    background: url('../resources/icons/three-dots-icon.png');
+    width: 37px;
+    height: 9px;
+    display: inline-block;
+}
+
+.three-dots-icon-big:hover {
+    background: url('../resources/icons/three-dots-icon-hover.png');
+}
+
+.nav-calendar .top-calendar {
+  background: url('../resources/icons/calendar-icon-normal.png');
+  width: 36px;
+  height: 36px;
+  display: inline-block; }
+
+.nav-calendar:hover .top-calendar, .nav-calendar.open .top-calendar {
+    background: url('../resources/icons/calendar-icon-hover.png');
+}
+
+.wheel-icon{
+    background-position: -99px -54px ;
+    width: 29px;
+    height: 28px;
+}
+
+ul.left-nav-menu li a i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-position: 0 0;
+}
+
+.my-journal-icon {
+    background: url('../resources/icons/my-journal-icon.png') no-repeat;
+}
+
+.shared-stories-icon {
+    background: url('../resources/icons/shared-stories-icon.png') no-repeat;
+}
+
+.nav-gallery-icon {
+    background: url('../resources/icons/gallery-icon.png') no-repeat;
+}
+
+.my-notes-icon {
+    background: url('../resources/icons/my-notes-icon.png') no-repeat;
+}
+
+.my-contacts-and-groups-icon {
+    background: url('../resources/icons/my-contacts-and-groups-icon.png') no-repeat;
+}
+
+.my-account-icon {
+    background: url('../resources/icons/my-account-icon.png') no-repeat;
+}
+
+ul.left-nav-menu li a:hover .my-journal-icon, ul.left-nav-menu li a.selected .my-journal-icon {
+    background: url('../resources/icons/my-journal-icon-hover.png');
+}
+
+ul.left-nav-menu li a:hover .shared-stories-icon, ul.left-nav-menu li a.selected .shared-stories-icon {
+    background: url('../resources/icons/shared-stories-icon-hover.png');
+}
+
+ul.left-nav-menu li a:hover .nav-gallery-icon, ul.left-nav-menu li a.selected .nav-gallery-icon {
+    background: url('../resources/icons/gallery-icon-hover.png');
+}
+
+ul.left-nav-menu li a:hover .my-notes-icon, ul.left-nav-menu li a.selected .my-notes-icon {
+    background: url('../resources/icons/my-notes-icon-hover.png');
+}
+
+ul.left-nav-menu li a:hover .my-contacts-and-groups-icon, ul.left-nav-menu li a.selected .my-contacts-and-groups-icon {
+    background: url('../resources/icons/my-contacts-and-groups-icon-hover.png');
+}
+
+ul.left-nav-menu li a:hover .my-account-icon, ul.left-nav-menu li a.selected .my-account-icon {
+    background: url('../resources/icons/my-account-icon-hover.png');
+}
+
+.create-your-story-menu i {
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.capture-thoughts-icon {
+    background: url('../resources/icons/capture-thoughts.png');
+}
+
+.add-photo-moments-icon {
+    background: url('../resources/icons/add-photo-moments.png');
+}
+
+.create-your-story-menu > li > a:hover .capture-thoughts-icon {
+    background: url('../resources/icons/capture-thoughts-hover.png');
+}
+
+.create-your-story-menu > li > a:hover .add-photo-moments-icon {
+    background: url('../resources/icons/add-photo-moments-hover.png');
+}
+
+.left-cal-nav {
+    background: url('../resources/icons/left-cal-nav.png');
+    width: 12px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+
+.right-cal-nav {
+    background: url('../resources/icons/right-cal-nav.png');
+    width: 12px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+
+/*css sprite*/
+
+.add-note, .add-note-hover, .calendar, .calendar-hover, .clock, .clock-hover, .delete, .delete-hover, .edit, .edit-hover, .gallery, .gallery-hover, .true-location, .location-hover, .my-account, .my-account-hover, .my-contacts, .my-contacts-hover, .my-journal, .my-journal-hover, .search, .search-hover, .share, .shared-stories, .shared-stories-hover, .share-hover, .star, .star-hover{
+    background: url('../resources/sprites/sprites.png') no-repeat;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    height: 25px;
+    width: 26px;
+    float: left;
+}
+
+.add-note{
+    background-position: -162px -109px ;
+}
+
+.add-note:hover{
+    background-position: -112px -112px ;
+}
+
+.add-note-hover{
+    background-position: -112px -112px ;
+}
+
+.calendar{
+    background-position: -60px -109px ;
+}
+
+.calendar-hover{
+    background-position: -10px -111px ;
+}
+
+.clock{
+    background-position: -560px -57px ;
+}
+
+.clock-hover{
+    background-position: -509px -57px ;
+}
+
+.delete{
+    background-position: -460px -59px ;
+}
+
+.delete:hover{
+    background-position: -412px -57px ;
+}
+
+.delete-hover{
+    background-position: -412px -57px ;
+}
+
+.edit{
+    background-position: -359px -58px ;
+}
+
+.edit:hover {
+    background-position: -310px -56px ;
+}
+
+.edit-hover{
+    background-position: -310px -56px ;
+}
+
+.gallery{
+    background-position: -259px -58px ;
+}
+
+.gallery-hover{
+    background-position: -208px -59px ;
+}
+
+.true-location{
+    background-position: -160px -60px ;
+}
+
+.location-hover{
+    background-position: -110px -60px ;
+}
+
+.my-account{
+    background-position: -59px -61px ;
+}
+
+.my-account-hover{
+    background-position: -9px -60px ;
+}
+
+.my-contacts{
+    background-position: -561px -8px ;
+}
+
+.my-contacts-hover{
+    background-position: -510px -10px ;
+}
+
+.my-journal{
+    background-position: -461px -9px ;
+}
+
+.my-journal:hover{
+    background-position: -410px -10px ;
+}
+
+.my-journal-hover{
+    background-position: -410px -10px ;
+}
+
+.search{
+    background-position: -362px -13px ;
+}
+
+.search-hover{
+    background-position: -311px -11px ;
+}
+
+.share{
+    background-position: -162px -11px ;
+    float: left;
+}
+
+.share:hover {
+    background-position: -114px -12px ;
+}
+
+.shared-stories{
+    background-position: -262px -12px ;
+}
+
+.shared-stories-hover{
+    background-position: -212px -12px ;
+}
+
+.share-hover{
+    background-position: -110px -12px ;
+}
+
+.star{
+    background-position: -62px -12px ;
+}
+
+.star:hover{
+    background-position: -12px -13px ;
+}
+
+.star-hover{
+    background-position: -12px -13px ;
+}
+
+/*END css sprite*/

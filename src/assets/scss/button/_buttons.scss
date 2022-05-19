@@ -1,0 +1,67 @@
+button {
+  outline: none;
+}
+.btn-story-that-big-light {
+  -webkit-box-shadow: 0 2px 0 #dad9d9;
+  -moz-box-shadow: 0 2px 0 #dad9d9;
+  box-shadow: 0 2px 0 #dad9d9;
+  vertical-align: middle;
+  color: #8c8c8c;
+  height: 40px;
+  padding: 0 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: 27px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-clip: padding-box;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+  font-size: 12px;
+  cursor: pointer;
+  & span {
+    font-size: 26px;
+    position: relative;
+    top: 3px;
+    color: #4a4a49;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  &:hover, &:focus {
+    -webkit-box-shadow: 0 4px 0 #1f719a;
+    -moz-box-shadow: 0 4px 0 #1f719a;
+    box-shadow: 0 4px 0 #1f719a;
+    background-color: #48a7d8;
+    border: 1px solid #9dcce5;
+    color: #ffffff !important;
+    text-shadow: 0 2px 2px #337a9e;
+    &>span {
+      color: #ffffff !important;
+      text-shadow: 0 2px 2px #337a9e;
+    }
+  }
+  &:hover i {
+    color: #ffffff !important;
+    text-shadow: 0 2px 2px #337a9e;
+  }
+}
+.nav-my-contacts {
+  span {
+    background: url(../resources/icons/contacts_storythat.png);
+    &:hover {
+      background: url(../resources/icons/contacts_storythat_hover.png);
+    }
+  }
+}
+.nav-upload-gallery {
+  span {
+    background: url('../resources/icons/upload.png');
+    &:hover {
+      background: url('../resources/icons/upload-hover.png');
+    }
+  }
+}

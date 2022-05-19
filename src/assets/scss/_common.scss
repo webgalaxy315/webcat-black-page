@@ -1,0 +1,16 @@
+.container {
+  width: 986px !important;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+a:hover, a:focus, a:hover > * {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+input {
+  outline: none !important;
+}

@@ -1,0 +1,103 @@
+.sidebar {
+  position: fixed;
+  width: 270px;
+  min-height: 700px;
+  padding: 0 !important;
+  background-color: #FFFFFF;
+  border-right: 1px solid #ebeae9;
+  .left-navigation {
+    h4{
+      margin: 0 auto 0;
+      width: 100%;
+      color: #4a4a49;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      cursor: pointer;
+      padding: 18px 0 20px;
+      height: 50px;
+      box-shadow: 0 1px 2px rgba(100, 100, 100, 0.29);
+      i {
+        padding-left: 5px;
+        transition-duration: .3s;
+      }
+      &+div {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.3s;
+        -moz-transition: max-height 0.3s;
+        transition: max-height 0.3s;
+      }
+      &.active-coll {
+        &+div {
+          max-height: 270px;
+        }
+        i.fa-angle-down {
+          -webkit-transform: rotate(180deg);
+          -moz-transform: rotate(180deg);
+          transform: rotate(180deg);
+          -webkit-transform-origin: 70% center;
+          -moz-transform-origin: 70% center;
+          transform-origin: 70% center;
+        }
+      }
+      &:hover {
+        color: #64c3f4;
+      }
+    }
+    .today {
+      color: #4a4a49;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    ul.left-nav-menu {
+      margin-top: 5px;
+      list-style: none;
+      padding-left: 0;
+      li {
+        width: 100%;
+        overflow: hidden;
+        a {
+          padding-top: 5px;
+          width: 100%;
+          height: 35px;
+          border-left: 4px solid transparent;
+          display: inline-block;
+          padding-left: 20px;
+          box-sizing: border-box;
+          color: #4a4a49;
+          font-size: 16px;
+          i {
+            float: left;
+            margin-top: 3px;
+            margin-right: 27px;
+            width: 20px;
+          }
+          &:hover, &.selected {
+            text-decoration: none;
+            color: #4a4a49;
+            background-color: rgba(237, 236, 235, 0.51);
+            &:after {
+              content: '';
+            }
+          }
+        }
+        &.active-page {
+          overflow: hidden;
+          a {
+            width: 350px;
+            color: #4a4a49;
+            &:after {
+              content: "...........";
+              color: #dbdbdb;
+              letter-spacing: 10px;
+              position: relative;
+              margin-left: 10px;
+              top: -5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

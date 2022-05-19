@@ -1,0 +1,23 @@
+<div class="sidebar">
+  <div class="left-navigation">
+    <h4 [ngClass]="{'active-coll':showCalendar}">
+      <span class="today">
+        <i class="fa fa-calendar-o"></i>
+        &nbsp; &nbsp; Today &nbsp;
+      </span>
+      <i class="fa fa-angle-down" (click)="showCalendar=!showCalendar"></i>
+    </h4>
+    <div class="calendar-nav-left">
+      <app-sidebar-datepicker></app-sidebar-datepicker>
+      <!--<div ng-click="$ctrl.CalendarClick($event)" uib-datepicker ng-model="calendar" class="well well-sm main-calendar" datepicker-options="options"></div>-->
+      <div class="calendar-gradient-bottom"></div>
+    </div>
+    <ul class="left-nav-menu">
+      <li><a class="selected" href="#"><i class="fa fa-book" aria-hidden="true"></i>My Journal </a></li>
+      <li><a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>My Gallery</a></li>
+      <li><a href="#"><i class="fa fa-files-o" aria-hidden="true"></i>Shared</a></li>
+      <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>Notes</a></li>
+      <li><a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i>My Notifications</a></li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<form class="fr search-form">
+  <div class="dropdown" dropdown>
+    <button class="cat-selected" dropdownToggle>
+      <i class="fa fa-book"></i>
+    </button>
+    <ul *dropdownMenu class="dropdown-menu">
+      <li class="search-journal">
+        <span data-category="JournalJournal">My Journal</span>
+        <i class="pull-left fa fa-book" aria-hidden="true" data-value="1"></i>
+      </li>
+      <li class="search-shared-stories">
+        <span data-category="Shared Stories">Shared Stories</span>
+        <i class="fa fa-files-o pull-left" aria-hidden="true"></i>
+      </li>
+      <li class="search-notes">
+        <span data-category="Notes">Notes</span>
+        <i class="fa fa-comments-o pull-left" aria-hidden="true"></i>
+      </li>
+      <li class="search-gallery">
+        <span data-category="Gallery">Gallery</span>
+        <i class="pull-left fa fa-picture-o" aria-hidden="true"></i>
+      </li>
+      <li class="search-users">
+        <span data-category="Users">Users</span>
+        <i class="fa fa-user pull-left" aria-hidden="true"></i>
+      </li>
+    </ul>
+  </div> <!--<dropdown>-->
+  <button class="search_button fr" ><i class="search-icon"></i></button>
+  <input class="header_search fr" placeholder="Search Journal" type="text">
+</form> <!-- search-form -->
